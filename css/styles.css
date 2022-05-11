@@ -25,6 +25,7 @@ body {
   color: var(--main-txt-cl);
 }
 
+
 .link:hover,
 .link:focus {
   color: var(--accent-cl);
@@ -40,6 +41,7 @@ body {
 }
 
 /*Шапка*/
+
 header {
   background-color: var(--header-bg-cl);
 }
