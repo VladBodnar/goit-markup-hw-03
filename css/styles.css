@@ -23,9 +23,24 @@ body {
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
-}
+ }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+    }
 
 .container {
+  outline: 1px solid red;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -45,6 +60,9 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
+ 
   list-style: none;
 }
 
@@ -53,7 +71,16 @@ body {
 header {
   background-color: var(--header-bg-cl);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 93px;
+
+
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -70,6 +97,20 @@ header {
   color: #ffffff;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+ .nav-item {
+margin-right: 50px;
+ }
+
+ .nav-item:last-child {
+   margin-right: 0;
+ }
+
+
 .studio,
 .portfolio,
 .contakt {
@@ -78,7 +119,22 @@ header {
   color: var(--text-cl);
 }
 
-.mail,
+.contakts {
+  display: flex;
+  margin-left: auto;
+
+}
+
+.mail{
+margin-right: 50px;
+
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--main-txt-cl);
+  }
+
+
+
 .tel {
   font-weight: 500;
   line-height: 1.14;
