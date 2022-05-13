@@ -77,9 +77,9 @@ header {
   align-items: center;
 }
 
+
 .logo {
   margin-right: 93px;
-
 
   font-family: "Raleway";
   font-weight: 700;
@@ -110,10 +110,13 @@ margin-right: 50px;
    margin-right: 0;
  }
 
+.contakts-link
+.navigation-link {
+  display: block;
+  outline: 1px solid pink;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-.studio,
-.portfolio,
-.contakt {
   font-weight: 500;
   line-height: 1.14;
   color: var(--text-cl);
@@ -125,24 +128,21 @@ margin-right: 50px;
 
 }
 
-.mail{
-margin-right: 50px;
 
-    font-weight: 500;
-    line-height: 1.14;
-    color: var(--main-txt-cl);
-  }
-
-
-
-.tel {
+.contakts-link {
+  margin-right: 50px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--main-txt-cl);
 }
 
-.mail:hover,
-.tel:hover {
+.contakts:last-child {
+  margin-right: 0;
+}
+
+
+
+.contakts-link:hover {
   color: var(--accent-cl);
 }
 
