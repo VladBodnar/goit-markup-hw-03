@@ -48,6 +48,11 @@ body {
   margin-right: auto;
 }
 
+.section {
+
+  padding-bottom: 94px;
+
+}
 
 .link:hover,
 .link:focus {
