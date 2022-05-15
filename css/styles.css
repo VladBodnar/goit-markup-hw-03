@@ -17,6 +17,12 @@
   --btn-bg-accent: #188ce8;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -162,26 +168,22 @@ margin-right: 50px;
 /*Герой*/
 
 .hero {
- /* height: 600px;*/
+ 
   background-color: var(--dark-bg-cl);
- /* padding: 200px;*/
+ 
   
 }
 
- /* .hero-group {
-  width: 696px;
-
-
-}*/
+ 
  
 
-.title {
+.hero-title {
 width: 696px;
 padding-top: 200px;
-padding-bottom: 280px ;
-padding-left: auto;
-padding-right: auto;
- 
+padding-bottom: 280px;
+margin-right: auto;
+  margin-left: auto;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
