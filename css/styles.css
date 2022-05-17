@@ -17,31 +17,29 @@
   --btn-bg-accent: #188ce8;
 }
 
-
 body {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
- }
+}
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-      margin: 0;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
-    img {
-      display: block;
-    }
+img {
+  display: block;
+}
 
 .container {
-  outline: 1px solid red;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -49,14 +47,9 @@ body {
   margin-right: auto;
 }
 
-
-
-
-
 .section {
   margin-top: 94px;
   margin-bottom: 94px;
-
 }
 
 .link:hover,
@@ -72,7 +65,7 @@ body {
 .list {
   padding: 0;
   margin: 0;
- 
+
   list-style: none;
 }
 
@@ -105,7 +98,6 @@ header {
   color: #000000;
 }
 
-
 /*Навигация*/
 
 .nav {
@@ -113,18 +105,17 @@ header {
   align-items: center;
 }
 
- .nav-item {
-margin-right: 50px;
- }
+.nav-item {
+  margin-right: 50px;
+}
 
- .nav-item:last-child {
-   margin-right: 0;
- }
+.nav-item:last-child {
+  margin-right: 0;
+}
 
 .contakts-link,
 .navigation-link {
   display: block;
-  outline: 1px solid rgb(192, 198, 255);
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -132,9 +123,6 @@ margin-right: 50px;
   line-height: 1.14;
   color: var(--text-cl);
 }
-
-
-
 
 /*Контакты*/
 
@@ -146,13 +134,12 @@ margin-right: 50px;
 .contakts-item {
   margin-right: 50px;
 }
- 
+
 .contakts-item:last-child {
   margin-right: 0;
 }
 
 .contakts-link {
-  
   font-weight: 500;
   line-height: 1.14;
   color: var(--main-txt-cl);
@@ -164,15 +151,15 @@ margin-right: 50px;
 
 /*Герой*/
 
-.hero { 
-  background-color: var(--dark-bg-cl);  
+.hero {
+  background-color: var(--dark-bg-cl);
 }
 
- .hero-title {
-width: 696px;
-padding-top: 200px;
-padding-bottom: 30px;
-margin-right: auto;
+.hero-title {
+  width: 696px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin-right: auto;
   margin-left: auto;
 
   font-weight: 900;
@@ -185,9 +172,8 @@ margin-right: auto;
 }
 
 .btn {
-
   padding: 10px 32px;
-  margin-bottom:  200px;
+  margin-bottom: 200px;
   cursor: pointer;
 
   font-family: inherit;
@@ -222,7 +208,7 @@ margin-right: auto;
 }
 
 .benefits-item:last-child {
-  margin-right:0;
+  margin-right: 0;
 }
 
 .section-title {
@@ -257,7 +243,7 @@ margin-right: auto;
 .work-list {
   display: flex;
 }
- 
+
 .work-item {
   margin-right: 30px;
 }
@@ -274,9 +260,10 @@ margin-right: auto;
 
 .personal-item {
   margin-right: 30px;
-  background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .personal-item:last-child {
@@ -286,7 +273,7 @@ margin-right: auto;
 .avatar {
   padding-top: 30px;
   padding-bottom: 10px;
- text-align: center;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -308,7 +295,6 @@ margin-right: auto;
 /*Фильтра*/
 
 .portfolio {
-
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -319,7 +305,6 @@ margin-right: auto;
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .filter-item {
@@ -329,12 +314,10 @@ margin-right: auto;
 .filter-item:last-child {
   margin-right: 0;
 }
- 
 
 .filter-btn {
-padding: 6px 22px;
-border: none;
-
+  padding: 6px 22px;
+  border: none;
 
   font-family: inherit;
   font-weight: 500;
@@ -361,30 +344,28 @@ border: none;
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  cursor: pointer ;
+  cursor: pointer;
 }
 
 /*Страницы*/
 
 .page-list {
-display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
-    
- .page-item {
-   width: 370px;
-   padding-top: 30px;
-   margin-right: 30px;
- } 
 
+.page-item {
+  width: 370px;
+  padding-top: 30px;
+  margin-right: 30px;
+}
 
-.page-item:nth-child(3n+3) {
+.page-item:nth-child(3n + 3) {
   margin-right: 0;
 }
 
 .page {
   margin: 20px 20px 4px 20px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -392,12 +373,12 @@ display: flex;
   color: var(--text-cl);
 }
 
-.filter-page {
+  .filter-page {
   margin: 0px 20px 20px 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--main-txt-cl);
+  color: var(--main-txt-cl);  
 }
 
 /*Подвал*/
