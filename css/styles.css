@@ -47,10 +47,7 @@ img {
   margin-right: auto;
 }
 
-.section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
+
 
 .link:hover,
 .link:focus {
@@ -73,6 +70,7 @@ img {
 
 header {
   background-color: var(--header-bg-cl);
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -152,13 +150,15 @@ header {
 /*Герой*/
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--dark-bg-cl);
+   text-align: center;
 }
 
 .hero-title {
   width: 696px;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
 
@@ -173,9 +173,7 @@ header {
 
 .btn {
   padding: 10px 32px;
-  margin-bottom: 200px;
   cursor: pointer;
-
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -193,6 +191,11 @@ header {
 }
 
 /*Преимущества*/
+
+.benefits-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .benefits-section-title {
   display: none;
@@ -240,6 +243,10 @@ header {
 
 /*Деятельность*/
 
+.work-section {
+padding-bottom: 94px;
+}
+
 .work-list {
   display: flex;
 }
@@ -253,6 +260,12 @@ header {
 }
 
 /*Команда*/
+
+.personal-section {
+  padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
 
 .personal-list {
   display: flex;
@@ -270,9 +283,13 @@ header {
   margin-right: 0;
 }
 
-.avatar {
-  padding-top: 30px;
-  padding-bottom: 10px;
+.avatar-name {
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.avatar {  
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -282,7 +299,6 @@ header {
 }
 
 .profession {
-  padding-bottom: 30px;
   text-align: center;
   font-size: 16px;
   line-height: 1.19;
